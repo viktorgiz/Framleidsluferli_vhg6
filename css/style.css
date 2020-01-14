@@ -1244,24 +1244,7 @@ h1, h2, h3, h4, h5,
       bottom: 0;
       opacity: .5;
       background: #000; }
-    .ftco-cover-Hi.overlay:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      opacity: .3;
-      background: #000; }
-    .ftco-cover-Manuf.overlay:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      opacity: .55;
-      background: #000; }
+
     .ftco-cover-1.overlay h1 {
       color: #fff;
       font-size: 3rem; }
@@ -1428,3 +1411,11 @@ h1, h2, h3, h4, h5,
   padding: 20px;
   background: #fff;
   margin-bottom: 30px; }
+
+.Man:before {
+  opacity: .55;
+  background: #000; }
+}
+.ftco-cover-1.overlay.HI:before:before {
+  opacity: .3;
+  background: #000; }
